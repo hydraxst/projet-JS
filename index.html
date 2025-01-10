@@ -40,23 +40,12 @@
         <a href="#footer" class="a-navlink a-navbar">S'inscrire</a>
       </div>
 
-      <div class="search-bar-navbar">
-        <a
-          href="/HTML/login.html"
-          class="a-search-bar-navbar a-navbar"
-          target="_blank"
-          ><div>
-            <img
-              src="https://cdn.discordapp.com/attachments/1287811918375026781/1327210009486168097/image.png?ex=67823c24&is=6780eaa4&hm=a306a5707df6bbab925e4c03e8e97324d8a8c11ed953065532d03a83b3a952a8&"
-              alt="Icone de loupe de recherche"
-              id="search-icon"
-            />
-          </div>
-          Rechercher un film...</a
-        >
-      </div>
+      <form method="get" class="search-bar-navbar">
+        <label for="recherche">
+          <input type="text" name="recherche" placeholder="Rechercher un film.." id="a-search-bar-navbar">
+          <script src="index.js" defer></script>
+        </label>
+      </form>
     </nav>
-
-    <script src="index.js" defer></script>
   </body>
 </html>

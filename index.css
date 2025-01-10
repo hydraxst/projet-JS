@@ -30,7 +30,7 @@ a {
 }
 .a-navbar:hover {
   /* link color change*/
-  background-color: white;
+  background-color: rgb(202, 202, 202);
 }
 .a-navlink {
   /* navbar link*/
@@ -52,7 +52,7 @@ nav {
   display: flex;
   align-items: center;
 }
-.a-search-bar-navbar {
+#a-search-bar-navbar {
   /* login link*/
   width: 100%;
   color: rgb(0, 0, 0, 0.5);
