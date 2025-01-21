@@ -3,13 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Page permettant de rechercher des films"
+    <meta name="description" content="Page d'information d'un film" />
+    <title>Titre du film</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/bebas-neue?styles=17620"
+      rel="stylesheet"
     />
-    <title>Catalogue</title>
   </head>
   <body>
+    <nav class="container navbar">
+      <a href="index.html" id="logoNavbar"
+        ><img
+          src="./im/logo app.png"
+          alt="Logo de application 'Cinéma Supinfo' permettant aux clients de visualiser les films disponibles dans le cinéma du village"
+          class="logo-navbar"
+        />
+        <p>CINEMA SUPINFO</p></a
+      >
+
+      <div class="navlink">
+        <a href="movie.html" class="a-navlink a-navbar" target="_blank"
+          >Catalogue</a
+        >
+        <a
+          href="/HTML/categories/categorie.html"
+          class="a-navlink a-navbar"
+          target="_blank"
+          >Se connecter</a
+        >
+        <a href="#footer" class="a-navlink a-navbar">S'inscrire</a>
+      </div>
+
+      <form method="get" class="search-bar-navbar">
+        <label for="recherche">
+          <input
+            type="text"
+            name="recherche"
+            placeholder="Rechercher un film.."
+            id="a-search-bar-navbar"
+          />
+          <script src="index.js" defer></script>
+        </label>
+      </form>
+    </nav>
+
+    <div class="container container-mov-head">
+      <div class="mov-head">
+        <div class="mov-head-title-place">
+          <div class="mov-head-title">
+            <h1 style="margin: 0px">
+              Moi quand je me réincarne en slime, Le Film : The Scarlet Bond"
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-mov-information">
+      <div class="mov-information">
+        <div class="mov-information-poster"></div>
+        <div class="mov-information-detail">
+          <div class="mov-information-detail-field">
+            <div class="mov-information-detail-field-title">
+              <h3>Résumé</h3>
+            </div>
+            <ul class="mov-information-detail-field-title">
+              <li>2 personnes</li>
+              <li>1 chambre</li>
+              <li>1 grand lit double</li>
+              <li>1 salle de bain commune</li>
+            </ul>
+          </div>
+          <div class="mov-information-detail-field">
+            <div class="mov-information-detail-field-title">
+              <h3>Services de base</h3>
+            </div>
+            <ul class="mov-information-detail-field-title">
+              <li>Petit-déjeuner : inclus dans le prix</li>
+              <li>Ménage : inclus dans le prix</li>
+              <li>Linge de lit : inclus dans le prix</li>
+              <li>Linge de toilette : en option (10€ /personne)</li>
+            </ul>
+          </div>
+          <div class="mov-information-detail-field">
+            <div class="mov-information-detail-field-title">
+              <h3>Equipements</h3>
+            </div>
+            <ul class="mov-information-detail-field-title">
+              <li>Restauration - Petit-déjeuner</li>
+              <li>Terrasse</li>
+              <li>Espace repas en plein air</li>
+              <li>Douche</li>
+              <li>Eau chaude</li>
+              <li>Papier toilette</li>
+              <li>Toilettes sèches</li>
+              <li style="text-decoration: line-through">Chauffage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="movie.js" defer></script>
   </body>
 </html>
