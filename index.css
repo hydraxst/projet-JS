@@ -12,7 +12,6 @@ a {
   width: 100%;
 }
 .navbar {
-  /* navbar générale */
   height: 0px;
   font-size: 30px;
   display: flex;
@@ -23,18 +22,15 @@ a {
   font-family: "Bebas Neue", sans-serif;
 }
 .navlink {
-  /* div navbar link*/
   width: 40%;
   display: flex;
   justify-content: space-evenly;
   padding-right: 5vw;
 }
 .a-navbar:hover {
-  /* link color change*/
   background-color: rgb(202, 202, 202);
 }
 .a-navlink {
-  /* navbar link*/
   text-decoration: none;
   color: #ba181b;
   padding-top: 2.4%;
@@ -48,13 +44,11 @@ nav {
   box-shadow: inset 0 0 0px black, 0 0 15px #0d1b2a;
 }
 .search-bar-navbar {
-  /* div login item*/
   width: 40%;
   display: flex;
   align-items: center;
 }
 #a-search-bar-navbar {
-  /* login link*/
   width: 400px;
   height: 50px;
   font-size: large;
@@ -77,7 +71,6 @@ nav {
   width: 2vw;
 }
 .logo-navbar {
-  /* site logo */
   height: 8vh;
   margin-top: 2vh;
   margin-left: 1vw;
@@ -105,128 +98,105 @@ nav {
 /* ________________phase de test_______________________*/
 
 .recommandation {
-  /* div container recommendation location*/
   height: 100%;
 }
-.container-recommendation-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 5vw;
-  font-family: "Bebas Neue", sans-serif;
-}
-.recommendation-title {
-  width: 65.5%;
-  display: flex;
-  justify-content: left;
-  font-size: 1.5vw;
-  font-size: 70px;
-  color: #000000;
-}
 .container-mov {
-  /* div container recommendation location*/
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
 }
-.mov {
-  /* div recommendation location*/
-  margin: 12.5px;
+/*.mov {
   display: flex;
-  width: 65%;
-  height: 35vw;
-  align-items: center;
+  width: 80vw;
+  height: 38.5vw;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 0px, 0px 0px 7px #35924e;
-  border-radius: 10px;
 }
 .mov-img {
   width: 30%;
-  height: 80%;
+  height: 90%;
   background-size: 100% 100%;
-  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .mov1-img {
-  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1330325132828479519/34811_768_1024.png?ex=678d9153&is=678c3fd3&hm=15778fd8b76d24d56351ccaf41277ad2e606ad0fb39c7f1d662f1307dd962ca3&);
+  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1331418811936800820/sonic_3_-_le_film.png?ex=67918be5&is=67903a65&hm=133d6e478f59fc8e8611854e8685f3f0f86c0f9036ff4ec4cc2c105ab1971054&);
   opacity: 0.5;
-}
-.mov2-img {
-  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1330691073370230824/9ec9a076d8516b78e1923dd76806f13e.png?ex=678ee622&is=678d94a2&hm=af7c739a7413e8cdeb9f6af52db172688e061570ad4d6e3c270d2168741342cc&);
-}
-.mov3-img {
-  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1330691309455020032/filtersquality95formatwebp.png?ex=678ee65b&is=678d94db&hm=4c6494cbaba5cd8f432934e3ccdd32029a0f73a8b667b3884225dd4e0aaf2a7f&);
-  background-size: 100% 130%;
-}
-.mov-info {
-  width: 42%;
-  height: 90%;
-}
-.container-note {
+}*/
+
+/* ààààààààààààààààààààààààààààà*/
+
+.mov2 {
   display: flex;
-  justify-content: end;
-  align-items: center;
+  width: 80vw;
+  height: 50vw;
+  justify-content: space-evenly;
 }
-.star-note {
-  height: 1.2vw;
-  margin-right: 0.5vw;
+.mov-img-2 {
+  width: 30%;
+  height: 100%;
+  background-size: 100% 100%;
 }
-.note {
-  font-size: 1.3vw;
-  margin-right: 0.3vw;
-}
-.bareme {
-  font-size: 1vw;
-  text-align: center;
-}
-.mov-info > h3 {
-  margin-bottom: 0px;
-  font-size: 1.3vw;
-}
-.mov-info > p {
-  font-size: 0.8vw;
-  margin-top: 0px;
-}
-.mov-info > ul {
-  padding-left: 5%;
-  font-size: 1vw;
-}
-.mov-page {
-  width: 19%;
-  height: 80%;
-  box-shadow: inset 0px 0px 0px white, -2px 0 0px rgb(0, 0, 0, 0.05);
-}
-.price {
-  text-align: right;
-}
-.price > p {
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-size: 0.7vw;
-}
-.price :nth-child(2) {
-  font-size: 1.6vw;
-}
-.container-discover-button {
-  width: 100%;
-  height: 49.5%;
-  display: flex;
-  justify-content: right;
-  align-items: end;
-}
-.discover-button {
-  width: 90%;
-  height: 50%;
+.text-top {
+  font-size: 35px;
   display: flex;
   justify-content: center;
-  background-color: #e27628;
-  border-radius: 10px;
 }
-.discover-button > p {
-  font-size: 0.9vw;
-  color: white;
-  text-decoration: none;
+.classement {
+  color: #ba181b;
 }
-.discover-button:hover {
-  background-color: #1e7349;
+.pour-img {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-mov-1 {
+  width: 100%;
+  height: 100%;
+}
+/*.pour-img > */
+.img-mov-1-2 {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.turn-button {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 100%;
+  background-color: #0d1b2a;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-button {
+  width: 80%;
+  height: 80%;
+}
+.img-button-left {
+  margin-right: 15%;
+}
+.img-button-right {
+  margin-left: 15%;
+}
+/* àààààààààààààààààààààààààààà*/
+.mov2-img {
+  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1330325132828479519/34811_768_1024.png?ex=679185d3&is=67903453&hm=d8114c696848a21c7229a1cd1a4585579846e774b2d1f38ee9fd92cae2de1aea&);
+}
+.mov3-img {
+  background-image: url(https://cdn.discordapp.com/attachments/1328150903726936064/1330691073370230824/9ec9a076d8516b78e1923dd76806f13e.png?ex=67918922&is=679037a2&hm=6d221cad4122f9449e8f6aeb084d399e761d9c524b5475d63b32c3412b0e95dc&);
+  opacity: 0.5;
+}
+.mov-img > .turn-button {
+  background: rgba(13, 27, 42, 1);
+  width: 8vw;
+  height: 8vw;
+  border-radius: 100%;
+  background-color: #0d1b2a;
 }
 a {
   text-decoration: none;
@@ -307,6 +277,29 @@ a {
 
 /*_______________fin MOVIE ___________________*/
 .footer {
+  height: 0px;
+  font-size: 30px;
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d1b2a;
+  height: fit-content;
+  font-family: "Bebas Neue", sans-serif;
   background-color: #0d1b2a;
   color: #ba181b;
+}
+.img-footer {
+  height: 4vh;
+  margin-top: 4vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+#logofooter {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+#logofooter > p {
+  color: #ba181b;
+  font-size: 40px;
 }
