@@ -217,16 +217,24 @@ a {
   align-items: center;
 }
 
-#title-detail {
+#title-resume,
+#title-genre,
+#title-actor {
   border-radius: 15px;
   color: #ba181b;
   background-color: #282c2e;
-  font-size: 3vw;
+  font-size: 2vw;
   padding: 1vw;
-  margin-left: -1.3vw;
   margin-top: 0vw;
 }
-#word 
+#word-resume,
+#word-genre,
+#word-actor {
+  margin-left: 2.1vw;
+  margin-bottom: 2vw;
+  margin-right: 2vw;
+  font-size: 1.2vw;
+}
 /*_______________________*/
 /*.container-mov-information {
   display: flex;
