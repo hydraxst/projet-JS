@@ -258,6 +258,7 @@ a {
 }
 
 .container-search-bar-page {
+  min-height: 36vw;
   width: 100%;
   display: flex;
   align-items: center;
