@@ -5,11 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Page permettant d'afficher les détails d'un film"
+      content="Page d'accueil du site internet montrant les films tendances"
     />
-    <title>Recherche</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/bebas-neue?styles=17620"
+      rel="stylesheet"
+    />
+
+    <title>Acceuil</title>
   </head>
+
   <body>
-    <script src="search.js" defer></script>
+    <nav class="container navbar">
+      <a href="index.html" id="logoNavbar"
+        ><img
+          src="./im/logo app.png"
+          alt="Logo de application 'Cinéma Supinfo' permettant aux clients de visualiser les films disponibles dans le cinéma du village"
+          class="logo-navbar"
+        />
+        <p>CINEMA SUPINFO</p></a
+      >
+
+      <div class="navlink">
+        <a href="movie.html" class="a-navlink a-navbar" target="_blank"
+          >Catalogue</a
+        >
+        <a
+          href="/HTML/categories/categorie.html"
+          class="a-navlink a-navbar"
+          target="_blank"
+          >Se connecter</a
+        >
+        <a href="#footer" class="a-navlink a-navbar">S'inscrire</a>
+      </div>
+
+      <form method="get" class="search-bar-navbar">
+        <label for="recherche">
+          <input
+            type="text"
+            name="recherche"
+            placeholder="Rechercher un film.."
+            id="a-search-bar-navbar"
+          />
+          <script src="index.js" defer></script>
+        </label>
+      </form>
+    </nav>
+    <div>
+        <h2 class="titre-séléction">
+          à la une !
+        </h2>
+        <div class="container">
+          <div class="card">
+            <img
+              src="./im/avengers.jpg"
+              alt="Affiche du film Avengers"
+              class="card-img"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Avengers</h3>
+    </div>
+    <footer>
+      <div class="container footer" id="footer">
+        <article><p>All right reserved to SUPINFO</p></article>
+        <article><p></p></article>
+      </div>
+    </footer>
+
+    <script src="index.js" defer></script>
   </body>
 </html>
+
