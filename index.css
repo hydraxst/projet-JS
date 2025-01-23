@@ -348,3 +348,10 @@ a {
   margin-left: 25%;
   min-height: 36vw;
 }
+#movieDetails {
+  margin-top: 20px;
+}
+#movieDetails img {
+  width: 200px;
+  height: auto;
+}

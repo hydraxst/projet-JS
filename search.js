@@ -42,7 +42,7 @@ function displayResults(movies) {
         `;
 
         movieElement.addEventListener('click', () => {
-            window.location.href = `movies.html?id=${movie.imdbID}`;
+            window.location.href = `movie.html?id=${movie.imdbID}`;
         });
 
         resultsContainer.appendChild(movieElement);
