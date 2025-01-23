@@ -119,20 +119,28 @@ nav {
   padding: 50px;
   justify-content: space-evenly;
 }
-.mov1-1 {
+.mov1-1 { 
   width: 30%;
   height: 90%;
+  margin: 50px;
   background-size: 100% 100%;
   justify-content: space-evenly;
 }
 
 .mov2 {
   display: flex;
-  width: 80vw;
-  height: 50vw;
+  width: 70vw;
+  height: 30vw;
+  margin: 50px;
   justify-content: space-evenly;
 }
-
+.mov-2{
+  width: 30%;
+  height: 90%;
+  margin: 50px;
+  background-size: 100% 100%;
+  justify-content: space-evenly;
+}
 .mov-img-2 {
   width: 30%;
   height: 100%;
@@ -330,4 +338,17 @@ a {
 #movieDetails img {
   width: 200px;
   height: auto;
+}
+#button-voir-plus {
+  background-color: #0d1b2a;
+  color: #ba181b;
+  border: none;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  position: relative;
+  left: 43%;
 }
