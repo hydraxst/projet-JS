@@ -34,12 +34,12 @@ fetch(`https://www.omdbapi.com/?i=tt15467380&apikey=7c8d496a&plot=full`)
   .catch((error) => {
     console.error("Erreur lors de la récupération des données:", error);
   });
-  fetch(`https://www.omdbapi.com/?i=tt15467380&apikey=7c8d496a&plot=full`)
+  fetch(`https://www.omdbapi.com/?i=tt15239678&apikey=7c8d496a&plot=full`)
   .then((response) => response.json())
   .then((data) => {
     const moviePoster = document.getElementById("mov2-1");
     moviePoster.innerHTML = `
-            <a href="movie.html?id=tt15467380"><img id="img-mov-1" src="${data.Poster}"></img></a>
+            <a href="movie.html?id=tt15239678"><img id="img-mov-1" src="${data.Poster}"></img></a>
             <p id="text-top">${data.Title}</p>
             `;
   })
