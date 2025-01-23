@@ -111,6 +111,20 @@ nav {
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
 }
+#mov1 {
+  display: flex;
+  width: 70vw;
+  height: 30vw;
+  margin: 50px;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+.mov1-1 {
+  width: 30%;
+  height: 90%;
+  background-size: 100% 100%;
+  justify-content: space-evenly;
+}
 
 .mov2 {
   display: flex;
@@ -118,6 +132,7 @@ nav {
   height: 50vw;
   justify-content: space-evenly;
 }
+
 .mov-img-2 {
   width: 30%;
   height: 100%;
