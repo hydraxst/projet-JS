@@ -258,7 +258,6 @@ a {
 }
 
 .container-search-bar-page {
-  min-height: 36vw;
   width: 100%;
   display: flex;
   align-items: center;
@@ -323,14 +322,15 @@ a {
   font-size: 40px;
 }
 #results {
-  margin-top: 20px;
+  width: 750px;
 }
 .movie {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
   background-color: white;
+  border-radius: 30px;
 }
 .movie img {
   width: 50px;
@@ -343,5 +343,8 @@ a {
 }
 .containeur{
   display: block;
-  height: 100vh;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  min-height: 36vw;
 }
