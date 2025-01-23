@@ -321,3 +321,22 @@ a {
   color: #ba181b;
   font-size: 40px;
 }
+#results {
+  margin-top: 20px;
+}
+.movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+.movie img {
+  width: 50px;
+  height: 75px;
+  margin-right: 10px;
+}
+.movie a {
+  text-decoration: none;
+  color: inherit;
+}
