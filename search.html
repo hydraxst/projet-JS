@@ -13,10 +13,14 @@
       rel="stylesheet"
     />
 
-    <title>Acceuil</title>
+    <title>Rechercher un film</title>
   </head>
 
-  <body>
+  <body
+    style="
+      background-image: url(https://e1.pxfuel.com/desktop-wallpaper/529/3/desktop-wallpaper-movie-poster-movie-billboard.jpg);
+    "
+  >
     <nav class="container navbar">
       <a href="index.html" id="logoNavbar"
         ><img
@@ -39,41 +43,59 @@
         >
         <a href="#footer" class="a-navlink a-navbar">S'inscrire</a>
       </div>
-
-      <form method="get" class="search-bar-navbar">
-        <label for="recherche">
-          <input
-            type="text"
-            name="recherche"
-            placeholder="Rechercher un film.."
-            id="a-search-bar-navbar"
-          />
-          <script src="index.js" defer></script>
-        </label>
-      </form>
     </nav>
-    <div>
-        <h2 class="titre-séléction">
-          à la une !
-        </h2>
-        <div class="container">
-          <div class="card">
-            <img
-              src="./im/avengers.jpg"
-              alt="Affiche du film Avengers"
-              class="card-img"
+
+    <div class="push-down"></div>
+
+    <div class="container">
+      <div class="container container-search-bar-page">
+        <form method="get" class="search-bar-page">
+          <label for="recherche" class="label-search-bar">
+            <input
+              type="text"
+              name="recherche"
+              placeholder="Rechercher un film..."
+              id="a-search-bar-page"
             />
-            <div class="card-body">
-              <h3 class="card-title">Avengers</h3>
+          </label>
+        </form>
+      </div>
     </div>
+
     <footer>
       <div class="container footer" id="footer">
-        <article><p>All right reserved to SUPINFO</p></article>
-        <article><p></p></article>
+        <article>
+          <p style="margin-top: 2.5vw; margin-left: 1vw">
+            All right reserved to SUPINFO
+          </p>
+        </article>
+        <div id="logofooter">
+          <img
+            src="https://media.discordapp.net/attachments/1287811918375026781/1326943039742279773/Capture_d_ecran_2025-01-09_164112-removebg-preview.png?ex=67926702&is=67911582&hm=0a474116fdd454fa1251d046d2cd5c7276bea772eafdf10b0d297507918728c8&=&format=webp&quality=lossless&width=750&height=748"
+            class="logo-navbar"
+          />
+          <p>CINEMA SUPINFO</p>
+          <img
+            src="https://cdn.discordapp.com/attachments/1328150903726936064/1331912130995294251/800px-Instagram_icon.png?ex=67935755&is=679205d5&hm=b98fb774fafccef4d154a0f257a179f9e9466f6ae21a0de0d3aff0b831d10725&"
+            class="img-footer"
+          />
+          <img
+            src="https://cdn.discordapp.com/attachments/1328150903726936064/1331912518934728794/600px-X_logo.png?ex=679357b2&is=67920632&hm=8ca1457dec7d5aa54d2b8d6689f97662a3ab8f7ae5f8a5cd4c3b8e66d390999a&"
+            class="img-footer"
+          />
+          <img
+            src="https://cdn.discordapp.com/attachments/1328150903726936064/1331912907385995286/Youtube_logo.png?ex=6793580e&is=6792068e&hm=b172b0363fa2b798f5a31bac0bb343576c1714529bbf4e575dbc0f1bb7fbac98&"
+            class="img-footer"
+          />
+          <img
+            src="https://cdn.discordapp.com/attachments/1328150903726936064/1331913219605794848/600px-Facebook_logo_28square29.png?ex=67935859&is=679206d9&hm=0f6d9994deb372d333d913219b3fbf1bfa9d330fb787f06543fddbd82926c25d&"
+            class="img-footer"
+          />
+        </div>
+        <div></div>
       </div>
     </footer>
 
-    <script src="index.js" defer></script>
+    <script src="search.js" defer></script>
   </body>
 </html>
-
