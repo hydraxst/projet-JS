@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <title>Rechercher un film</title>
+    <title>S'inscrire</title>
   </head>
 
   <body
@@ -47,13 +47,38 @@
     <div class="containeur">
       <div class="container container-search-bar-page">
         <form method="get" class="search-bar-page">
-          <label for="recherche" class="label-search-bar">
+          <label for="Name" class="label-search-bar">
+            <input type="text" name="Nom" required placeholder="Nom" /><br />
+          </label>
+          <label for="Firstname" class="label-search-bar">
             <input
               type="text"
-              name="recherche"
-              placeholder="Rechercher un film..."
-              id="a-search-bar-page"
-            />
+              name="Prénom"
+              required
+              placeholder="Prénom"
+            /><br />
+          </label>
+          <label for="age" class="label-search-bar">
+            <input type="text" name="age" required placeholder="Age" /><br />
+          </label>
+          <label for="Sexe" class="label-search-bar">
+            <input type="text" name="Sexe" required placeholder="Sexe" /><br />
+          </label>
+          <label for="Taille" class="label-search-bar">
+            <input
+              type="text"
+              name="Taille"
+              required
+              placeholder="Taille"
+            /><br />
+          </label>
+          <label for="Poids" class="label-search-bar">
+            <input
+              type="text"
+              name="Poids"
+              required
+              placeholder="Poids"
+            /><br />
           </label>
         </form>
       </div>
@@ -93,7 +118,5 @@
         <div></div>
       </div>
     </footer>
-
-    <script src="search.js" defer></script>
   </body>
 </html>
